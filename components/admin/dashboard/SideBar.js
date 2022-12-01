@@ -42,6 +42,13 @@ function SideBar({ action }) {
               </Link>
             </li>
 
+            <li onClick={() => action()} className="flex items-center gap-1 ">
+              <AiFillAppstore className="text-red-500 mb-1" />
+              <Link href="/dashboard/address">
+                <a>Address</a>
+              </Link>
+            </li>
+
             <li className="flex items-center gap-1 ">
               <AiOutlineLogin className="text-red-500 mb-1" />
               <button onClick={value.signOut}>
