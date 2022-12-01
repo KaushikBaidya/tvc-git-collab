@@ -77,13 +77,13 @@ const Navbar = () => {
                   <Link href="/allProducts">
                     <li className="dropdown-menu ">All Products</li>
                   </Link>
-                  <Link href="/allProducts">
+                  <Link href="/product/biomass">
                     <li className="dropdown-menu">Biomass</li>
                   </Link>
-                  <Link href="/allProducts">
+                  <Link href="/product/mineral">
                     <li className="dropdown-menu">Mineral</li>
                   </Link>
-                  <Link href="/allProducts">
+                  <Link href="/product/Self-Biological">
                     <li className="dropdown-menu">Self-Biological Products</li>
                   </Link>
                   <Link href="/">
